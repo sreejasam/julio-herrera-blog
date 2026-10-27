@@ -1,0 +1,11 @@
+# Googlebot and all other crawlers
+User-agent: *
+Allow: /
+Allow: /img/
+
+# Sitemaps
+Sitemap: https://www.julio-herrera.com/sitemap.xml
+
+# Performance Optimization: Prevent crawling of non-existent paths
+Disallow: /cgi-bin/
+Disallow: /admin/
